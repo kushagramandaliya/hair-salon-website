@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#FFB6C1), url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    padding-top: 140px;
+    color: white;
+}
+.banner-text h1{
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner-text p{
+    font-size: 40px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    /* background-color: #ddd; */
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    width: 150px;
+    padding: 12px 50px;
+    color: white;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+    margin: 0 50px;
+}
+.banner-btn a:hover{
+    background-color: black;
+    color: white;
+}
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #FFB6C1;
+    z-index: 20;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 50px 20px;
+    color: white;
+}
+#menubtn{
+    width: 50px;
+    height: 50px;
+     background: #FFB6C1;
+    text-align: center;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    position: fixed;
+}
+#menubtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+#features{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    color: #FFB6C1;
+    font-size: 20px;
+    font-weight: bold;
+}
+.title-text h1
+{
+    font-size: 50px;
+}
