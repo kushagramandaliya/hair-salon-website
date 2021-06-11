@@ -5,4 +5,7 @@
 - other sections are services , feature and review as well as footer section.
 - Anyone can add their own section easily code is clean so go for it friends.
 - I am alos attaching photo of website so It will be easy for you.
+- In some section I have added some effects which is not visible in photo.
+- This website is alos mobile friendly.
 
+ ![Bombshell](https://user-images.githubusercontent.com/83900915/121698826-05015c80-caec-11eb-9bcf-5029ca86be54.png)
